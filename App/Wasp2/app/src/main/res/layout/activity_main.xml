@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="480dp"
+            android:layout_height="222dp"
+            android:scaleType="fitXY"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:text="온도:"
+                android:gravity="right"
+                android:textSize="25dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="20dp"
+                tools:layout_editor_absoluteY="229dp"
+                />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="222dp"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="229dp"
+            />
+        </LinearLayout>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="199dp"
+            android:layout_height="87dp"
+            android:text="말벌퇴치"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="407dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="203dp"
+            android:layout_height="83dp"
+            android:text="말벌 치우기"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="137dp"
+            tools:layout_editor_absoluteY="407dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
